@@ -1,0 +1,21 @@
+*, html, body {
+    margin: 0;
+    padding: 0;
+}
+
+
+.erro {
+    background-color: #f2bd0f;
+    border: 2px solid #685106;
+    display: flex;  
+        align-items: center;
+}
+
+.erro .erro-counter .erro_atual,
+.erro .erro-counter .erro_total {
+    border-right: 4px solid red;
+    margin-right: 20px;
+    padding: 20px;
+}
+
+
